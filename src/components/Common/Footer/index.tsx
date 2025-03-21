@@ -1,6 +1,4 @@
 import Section from "@/components/Section";
-import Link from "next/link";
-import React from "react";
 
 export default function Footer() {
   return (
@@ -20,13 +18,11 @@ export default function Footer() {
               <b>Địa Chỉ</b>: 287 Phan Văn Hớn, Q.12, TP.HCM
             </p>
             <p>
-              <b>SĐT</b>: <Link href="tel:0859888905">085 9888 905</Link>
+              <b>SĐT</b>: <a href="tel:0859888905">085 9888 905</a>
             </p>
             <p>
               <b>Email</b>:
-              <Link href="mailto:nvnhat.17ck1@gmail.com">
-                nvnhat.17ck1@gmail.com
-              </Link>
+              <a href="mailto:nvnhat.17ck1@gmail.com">nvnhat.17ck1@gmail.com</a>
             </p>
           </div>
           <div>

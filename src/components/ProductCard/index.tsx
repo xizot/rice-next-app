@@ -2,8 +2,6 @@ import { Button } from "@/components/ui/button";
 import { CurrencyHelper } from "@/helpers/currency.helper";
 import { Product } from "@/types/product";
 import Image from "next/image";
-import Link from "next/link";
-import React from "react";
 
 type ProductCardProps = Pick<Product, "id" | "image" | "name" | "price"> & {};
 export default function ProductCard({ image, name, price }: ProductCardProps) {
@@ -22,9 +20,9 @@ export default function ProductCard({ image, name, price }: ProductCardProps) {
         <p className="text-2xl text-primary font-semibold mb-4">
           {CurrencyHelper.formatVND(price)}
         </p>
-        <Link href="tel:0859888905" className="block cursor-pointer">
-          <Button className="w-full">Liên hệ mua</Button>
-        </Link>
+        <a href="tel:0859888905" className="block">
+          <Button className="w-full cursor-pointer">Liên hệ mua</Button>
+        </a>
       </div>
     </div>
   );
