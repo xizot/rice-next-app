@@ -13,7 +13,7 @@ export default function HeaderNavDesktop({ navRoutes }: HeaderNavDesktopProps) {
       {navRoutes.map((route) => (
         <li key={route.href}>
           <Link href={route.href} className="nav-item">
-            Trang chủ
+            {route.name}
           </Link>
         </li>
       ))}

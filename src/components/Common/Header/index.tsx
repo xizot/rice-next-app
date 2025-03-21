@@ -42,7 +42,9 @@ export default function Header() {
       <HeaderAlert />
       <header className="sticky top-0 z-50 bg-white shadow-md py-4  dark:bg-accent">
         <div className="container mx-auto flex justify-between items-center">
-          <Link href="/">LOGO</Link>
+          <Link href="/" className="text-foreground">
+            LOGO
+          </Link>
           <HeaderNavDesktop navRoutes={navRoutes} />
           <HeaderNavMobile navRoutes={navRoutes} />
         </div>
