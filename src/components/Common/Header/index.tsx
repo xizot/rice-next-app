@@ -3,7 +3,9 @@ import HeaderNavDesktop from "@/components/Common/Header/HeaderNavDesktop";
 import HeaderNavMobile from "@/components/Common/Header/HeaderNavMobile";
 import { APP_ROUTES } from "@/constants/app-route.constant";
 import { NavRoute } from "@/types/common";
+import Image from "next/image";
 import Link from "next/link";
+import Logo from "@/assets/images/logo.png";
 
 const navRoutes: NavRoute[] = [
   {
@@ -34,8 +36,17 @@ export default function Header() {
       <HeaderAlert />
       <header className="sticky top-0 z-50 shadow-md py-4 bg-background border-b">
         <div className="container mx-auto flex justify-between items-center">
-          <Link href="/" className="text-foreground">
-            LOGO
+          <Link href={APP_ROUTES.HOME} className="flex items-center gap-x-2">
+            <Image
+              src={Logo}
+              alt="Logo"
+              width={48}
+              height={48}
+              className="max-sm:w-8 max-sm:h-8"
+            />
+            <h1 className="font-bold text-4xl max-lg:text-2xl mt-1 font-great-vibes text-amber-600 text-nowrap">
+              Vựa gạo Phước Thịnh
+            </h1>
           </Link>
           <HeaderNavDesktop navRoutes={navRoutes} />
           <HeaderNavMobile navRoutes={navRoutes} />

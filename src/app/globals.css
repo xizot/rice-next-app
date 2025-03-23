@@ -85,7 +85,7 @@
   --accent-foreground: oklch(0.985 0 0);
   --destructive: oklch(0.704 0.191 22.216);
   /* đỏ giữ nguyên */
-  --border: oklch(0.76 0.21 80 / 20%);
+  --border: oklch(0.76 0.21 80 / 25%);
   /* cam mờ */
   --input: oklch(0.76 0.21 80 / 25%);
   --ring: oklch(0.76 0.21 80);
@@ -113,6 +113,7 @@
 }
 
 @theme inline {
+  --font-great-vibes: var(--font-great-vibes);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);

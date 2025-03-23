@@ -1,4 +1,8 @@
 import Section from "@/components/Section";
+import { APP_ROUTES } from "@/constants/app-route.constant";
+import Image from "next/image";
+import Link from "next/link";
+import Logo from "@/assets/images/logo.png";
 
 export default function Footer() {
   return (
@@ -6,9 +10,23 @@ export default function Footer() {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-12">
           <div>
-            <h3 className="text-2xl font-semibold text-primary mb-4">
-              Vựa gạo Phước Thịnh
-            </h3>
+            <div className="mb-2">
+              <Link
+                href={APP_ROUTES.HOME}
+                className="flex items-center gap-x-2"
+              >
+                <Image
+                  src={Logo}
+                  alt="Logo"
+                  width={48}
+                  height={48}
+                  className="max-sm:w-8 max-sm:h-8"
+                />
+                <h1 className="font-bold text-4xl max-lg:text-2xl mt-1 font-great-vibes text-amber-600 text-nowrap">
+                  Vựa gạo Phước Thịnh
+                </h1>
+              </Link>
+            </div>
             <p className="mb-4">
               Chuyên cung cấp tất cả các loại gạo tấm nếp sạch giá sỉ toàn miền
               Nam. Cung cấp gạo cho các công ty xí nghiệp với thuế VAT 0%. Cam

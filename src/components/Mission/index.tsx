@@ -11,11 +11,11 @@ export default function Mission() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div>
           <p>
-            <b className="text-primary">Vựa gạo Thịnh Phát</b> được thành lập
+            <b className="text-primary">Vựa gạo Phước Thịnh</b> được thành lập
             năm 2015 chuyên cung cấp tất cả các loại gạo tấm nếp cho các công ty
             nhà hàng quán ăn và các đại lý bán gạo,… Với sứ mệnh cung cấp các
             loại gạo sạch Miền Tây với giá rẻ cho mọi người.{" "}
-            <b className="text-primary">Vựa gạo Thịnh Phát</b> tin rằng sẽ đáp
+            <b className="text-primary">Vựa gạo Phước Thịnh</b> tin rằng sẽ đáp
             ứng được không những gạo ngon gạo rẻ mà còn phải an toàn với sức
             khỏe của mọi người.
             <br />

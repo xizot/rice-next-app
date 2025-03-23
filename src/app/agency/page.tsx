@@ -44,7 +44,7 @@ export default function Agency() {
         </div>
       </Section>
 
-      <Section className="bg-accent dark:bg-[#0d1117]">
+      <Section className="bg-accent dark:border-t">
         <div className="lg:flex justify-between items-center">
           <div>
             <p className="text-3xl font-medium text-primary mb-2">
