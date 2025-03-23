@@ -4,7 +4,10 @@ import MissionImg from "@/assets/images/mission/mission-1.jpg";
 
 export default function Mission() {
   return (
-    <Section title="Sứ mệnh của chúng tôi" className="bg-accent">
+    <Section
+      title="Sứ mệnh của chúng tôi"
+      className="bg-accent dark:border-t dark:border-b"
+    >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div>
           <p>

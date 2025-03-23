@@ -169,8 +169,8 @@ export default function Charity() {
           </div>
         </div>
       </Section>
-      <Section className="bg-accent">
-        <div className="flex justify-between items-center">
+      <Section className="bg-accent dark:border-t">
+        <div className="lg:flex justify-between items-center">
           <div>
             <p className="mt-6 text-3xl font-medium text-primary mb-2">
               Hãy để chúng tôi giúp bạn

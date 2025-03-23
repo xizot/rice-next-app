@@ -23,16 +23,8 @@ const navRoutes: NavRoute[] = [
     href: APP_ROUTES.RICE,
   },
   {
-    name: "Bảng giá gạo",
-    href: APP_ROUTES.PRICE,
-  },
-  {
     name: "Tư vấn đại lý",
     href: APP_ROUTES.AGENCY,
-  },
-  {
-    name: "Liên hệ",
-    href: APP_ROUTES.CONTACT_US,
   },
 ];
 
@@ -40,7 +32,7 @@ export default function Header() {
   return (
     <>
       <HeaderAlert />
-      <header className="sticky top-0 z-50 bg-white shadow-md py-4  dark:bg-accent">
+      <header className="sticky top-0 z-50 shadow-md py-4 bg-background border-b">
         <div className="container mx-auto flex justify-between items-center">
           <Link href="/" className="text-foreground">
             LOGO

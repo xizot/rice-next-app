@@ -3,7 +3,7 @@ import React from "react";
 
 export default function HeaderAlert() {
   return (
-    <div className="bg-primary py-2 dark:bg-accent dark:border-b max-lg:hidden">
+    <div className="bg-primary py-2 dark:bg-primary/40 max-lg:hidden">
       <div className="container mx-auto">
         <div className="flex flex-col gap-2 md:flex-row justify-between md:items-center">
           <div className="flex items-center gap-2">

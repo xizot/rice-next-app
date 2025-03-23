@@ -5,7 +5,7 @@ import React from "react";
 
 export default function ContactForm() {
   return (
-    <Section className="bg-[#80b435]">
+    <Section className="bg-[#80b435] dark:bg-background dark:border-t">
       <form className="bg-white dark:bg-background w-[40rem] max-w-full mx-auto p-6 rounded-lg space-y-4 shadow-lg">
         <p className="text-2xl font-medium mb-4">ĐĂNG KÝ NHẬN BÁO GIÁ</p>
         <p>

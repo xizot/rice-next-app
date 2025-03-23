@@ -61,7 +61,7 @@
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
+  --background: oklch(10.39% 0.0194 248.34);
   /* xám đậm */
   --foreground: oklch(0.985 0 0);
   /* trắng */
@@ -80,7 +80,7 @@
   /* xám tối */
   --muted-foreground: oklch(0.708 0 0);
   /* xám sáng */
-  --accent: oklch(0.4 0.15 80);
+  --accent: oklch(17.63% 0.014 258.36);
   /* cam đậm hơn */
   --accent-foreground: oklch(0.985 0 0);
   --destructive: oklch(0.704 0.191 22.216);
