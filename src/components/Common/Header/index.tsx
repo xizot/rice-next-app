@@ -11,7 +11,7 @@ const navRoutes: NavRoute[] = [
     href: APP_ROUTES.HOME,
   },
   {
-    name: "Cửa hàng",
+    name: "Sản phẩm",
     href: APP_ROUTES.SHOP,
   },
   {

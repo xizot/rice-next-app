@@ -1,4 +1,3 @@
-import Footer from "@/components/Common/Footer";
 import Hero from "@/components/Common/Hero";
 import ContactForm from "@/components/ContactForm";
 import Mission from "@/components/Mission";
@@ -22,7 +21,6 @@ export default function Home() {
       <ProductList title="Gạo đặc sản" products={specialtyRices} />
       <ProductList title="Sản phẩm bán chạy" products={topSellingRices} />
       <ContactForm />
-      <Footer />
     </div>
   );
 }
