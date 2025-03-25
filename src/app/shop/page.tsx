@@ -56,7 +56,7 @@ const categories = [
   },
 ];
 
-export default function ShopPage() {
+export default function ShopPage () {
   return (
     <div className="container mx-auto flex">
       <div className="w-[295px] bg-background border-r pr-6">
@@ -94,6 +94,7 @@ export default function ShopPage() {
         <ProductList
           products={[...topSellingRices, ...topSellingRices]}
           size="small"
+          className="lg:grid-cols-3"
           sectionClassName="lg:py-6"
         />
       </Section>

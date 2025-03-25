@@ -1,6 +1,6 @@
 import { Product } from "@/types/product";
 
-import DefaultProductImg from "@/assets/images/product/product-default.jpg";
+import DefaultProductImg from "@/assets/images/product/product-default.webp";
 
 export const packagedRices: Product[] = [
   {

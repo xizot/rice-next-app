@@ -1,10 +1,10 @@
 "use client";
 
-import HeroImg1 from "@/assets/images/hero/hero-1.jpg";
-import HeroImg2 from "@/assets/images/hero/hero-2.jpg";
-import HeroImg3 from "@/assets/images/hero/hero-3.jpg";
-import HeroImg4 from "@/assets/images/hero/hero-4.jpg";
-import HeroImg5 from "@/assets/images/hero/hero-5.jpg";
+import HeroImg1 from "@/assets/images/hero/hero-1.webp";
+import HeroImg2 from "@/assets/images/hero/hero-2.webp";
+import HeroImg3 from "@/assets/images/hero/hero-3.webp";
+import HeroImg4 from "@/assets/images/hero/hero-4.webp";
+import HeroImg5 from "@/assets/images/hero/hero-5.webp";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
@@ -63,6 +63,7 @@ export default function Hero() {
               alt={`Hero image ${index}`}
               fill
               className="w-full h-full object-cover"
+              loading="lazy"
             />
           </div>
         ))}

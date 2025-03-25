@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/assets/images/logo.png";
 
-export default function Footer() {
+export default function Footer () {
   return (
     <Section className="bg-gray-100 dark:bg-background dark:border-t">
       <div className="container mx-auto">
@@ -33,14 +33,15 @@ export default function Footer() {
               kết giá sỉ rẻ nhất thị trường!
             </p>
             <p>
-              <b>Địa Chỉ</b>: 287 Phan Văn Hớn, Q.12, TP.HCM
+              <b>Địa Chỉ</b>:{" "}287 Phan Văn Hớn, Q.12, TP.HCM
             </p>
             <p>
-              <b>SĐT</b>: <a href="tel:0859888905">085 9888 905</a>
+              <b>SĐT</b>:{" "}
+              <a href="tel:0859888905">085 9888 905</a>
             </p>
             <p>
-              <b>Email</b>:
-              <a href="mailto:nvnhat.17ck1@gmail.com">nvnhat.17ck1@gmail.com</a>
+              <b>Email</b>:{" "}
+              <a href="mailto:nvnhat.17ck1@gmail.com">vuagaophuocthinh@gmail.com</a>
             </p>
           </div>
           <div>
@@ -51,7 +52,7 @@ export default function Footer() {
               <b>Ngân hàng</b>: Vietcombank
             </p>
             <p>
-              <b>Chủ tài khoản</b>: Nguyễn Văn Nhật
+              <b>Chủ tài khoản</b>: Vựa gạo Phước Thịnh
             </p>
             <p>
               <b>Số tài khoản</b>: xxxxxxxxx

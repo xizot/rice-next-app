@@ -36,6 +36,7 @@ export default function ProductCard({
           alt={name}
           fill
           className="w-full h-full absolute top-0 left-0 object-cover object-center"
+          loading="lazy"
         />
       </div>
       <div

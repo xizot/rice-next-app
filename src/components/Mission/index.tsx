@@ -1,6 +1,6 @@
 import Section from "@/components/Section";
 import Image from "next/image";
-import MissionImg from "@/assets/images/mission/mission-1.jpg";
+import MissionImg from "@/assets/images/mission/mission-1.webp";
 
 export default function Mission() {
   return (
