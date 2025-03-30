@@ -34,6 +34,8 @@ export default function Mission() {
             alt=""
             height={280}
             className="w-full h-[280px] object-cover rounded-lg"
+            sizes="(max-width: 768px) 100vw, 50vw"
+            loading="lazy"
           />
         </div>
       </div>

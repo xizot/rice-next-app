@@ -36,6 +36,7 @@ export default function ProductCard({
           alt={name}
           fill
           className="w-full h-full absolute top-0 left-0 object-cover object-center"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
           loading="lazy"
         />
       </div>
